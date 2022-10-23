@@ -18,3 +18,5 @@ print(f'W sumie kupuję {i} produktów')
 #1
 #2
 #3
+
+Pozdrawiam Pana Mentora! <3
