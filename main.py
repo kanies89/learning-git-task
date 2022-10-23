@@ -16,3 +16,4 @@ for n in groceries.items():
 print(f'W sumie kupuję {i} produktów')
 
 #1
+#2
