@@ -14,3 +14,5 @@ for n in groceries.items():
         i += 1
     print(f'Idę do {n[0].capitalize()}, kupuję tu następujące rzeczy: {x}')
 print(f'W sumie kupuję {i} produktów')
+
+#1
