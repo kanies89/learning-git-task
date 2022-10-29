@@ -1,22 +1,19 @@
+#Zadanie 1
 groceries = {
     'piekarnia': ['chleb', 'pączek', 'bułki'],
     'warzywniak': ['marchew', 'seler', 'rukola']
 }
+count = 0
+for n, value in groceries.items():
+    print(f"Idę do {n.capitalize()} i kupuję tam {[item.capitalize() for item in value]}")
+    if isinstance(value, list):
+        count += len(value)
 
-i=0
 
-for n in groceries.items():
+print(f'W sumie kupuję {count} produktów')
 
-    x = []
-
-    for m in n[1]:
-        x.append(m.capitalize())
-        i += 1
-    print(f'Idę do {n[0].capitalize()}, kupuję tu następujące rzeczy: {x}')
-print(f'W sumie kupuję {i} produktów')
-
-#1
-#2
-#3
-
-Pozdrawiam Pana Mentora! <3
+#Zadanie 2
+x = range(0, 101)
+print(f"{[n for n in x if n % 5 == 0]}")
+print(f"{[n**3 for n in x if n % 5 == 0]}")
+print(f" ")
